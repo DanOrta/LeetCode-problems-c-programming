@@ -1,0 +1,8 @@
+*.o
+*.exe
+*.swp
+*.vim
+*.map
+*.out
+*.s
+*.asm
