@@ -1,12 +1,13 @@
 # 14. Longest Common Prefix
-#### <font color="green">Easy</font>
+### Easy
+
 Write a function to find the longest common prefix string amongst an array of strings.
 
-If there is no common prefix, return an empty string  ````""````.
+If there is no common prefix, return an empty string  `""`.
 
 **Example 1:**
 > **Inputs:** strs = ["flower", "flow", "flight"]  
-**Output:** ""
+**Output:** "fl"
 
 **Example 2:**
 > **Input:** strs = ["dog", "racecar", "car"]  
@@ -14,6 +15,6 @@ If there is no common prefix, return an empty string  ````""````.
 **Explanation:** There is no common prefix among the input strings.
 
 **Constraints:**
-* ````1 <= strs.length <= 200````
-* ````0 <= strs[i].lenght <= 200````
-* ````strs[i]```` consists of only lowercase English letters if it is non-empty.
+* `1 <= strs.length <= 200`
+* `0 <= strs[i].lenght <= 200`
+* `strs[i]` consists of only lowercase English letters if it is non-empty.

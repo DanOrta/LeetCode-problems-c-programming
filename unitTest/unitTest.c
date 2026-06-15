@@ -75,6 +75,7 @@ TEST(longestCommonPrefix)
 {
     expectedResult_longestCommonPrefix inputTest[] =
     {
+        {"fl",   {"flower", "flow", "flight"}},
         {"flo",  {"float", "flood", "floyd"}},
         {"",     {"dog", "racecar", "airplane"}},
         {"",     {"a", "", ""}},
